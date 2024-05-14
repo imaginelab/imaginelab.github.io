@@ -6,7 +6,7 @@ subtitle: Imaging, Machine learning And Genetics in Neurodevelopment Lab
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: imagine_lab.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>IMAGINE Lab</p>
