@@ -9,18 +9,17 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>School of Biomedical Engineering & Imaging Sciences</p>
-    </p>King's College London</p>
-    </p>&</p>
-    </p>Developmental Neurosciences</p>
-    </p>UCL Great Ormond Street Institute of Child Health</p>
+    <p>IMAGINE Lab</p>
+    </p>Contact us:</p>
+    </p>konrad.wagstyl@kcl.ac.uk</p>
+
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Welcome to the IMAGINE Lab home page. We work on building the imaginge.
+Welcome to the IMAGINE Lab home page based at the [School of Biomedical Engineering & Imaging Sciences, King's College London](https://www.kcl.ac.uk/bmeis) and [Developmental Neurosciences, UCL](https://www.ucl.ac.uk/child-health/research/developmental-neurosciences).
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
