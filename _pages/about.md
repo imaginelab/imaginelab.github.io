@@ -19,7 +19,13 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Welcome to the IMAGINE Lab! We are based at the [School of Biomedical Engineering & Imaging Sciences, King's College London](https://www.kcl.ac.uk/bmeis) and [Developmental Neurosciences, UCL](https://www.ucl.ac.uk/child-health/research/developmental-neurosciences). We work on building imaging and genetics tools to better understand, diagnose and plan treat neurodevelopmental disorders.
+Welcome to the IMAGINE Lab! We are based at the [School of Biomedical Engineering & Imaging Sciences, King's College London](https://www.kcl.ac.uk/bmeis) and [Developmental Neurosciences, UCL](https://www.ucl.ac.uk/child-health/research/developmental-neurosciences). We work on building imaging and genetics tools to better understand, diagnose and plan treatment neurodevelopmental disorders.
+
+Read more about our research projects here
+
+Meet our [team.](/al-folio/profiles/).
+
+
 
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
