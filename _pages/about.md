@@ -14,9 +14,9 @@ profile:
     </p>konrad.wagstyl@kcl.ac.uk</p>
 
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 ---
 
 Welcome to the IMAGINE Lab! We are based at the [School of Biomedical Engineering & Imaging Sciences, King's College London](https://www.kcl.ac.uk/bmeis) and [Developmental Neurosciences, UCL](https://www.ucl.ac.uk/child-health/research/developmental-neurosciences). We work on building imaging and genetics tools to better understand, diagnose and plan treatment neurodevelopmental disorders.
