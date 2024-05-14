@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: home
 permalink: /
 subtitle: Imaging, Machine learning And Genetics in Neurodevelopment Lab
 
