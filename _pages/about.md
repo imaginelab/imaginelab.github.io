@@ -23,4 +23,4 @@ Welcome to the IMAGINE Lab! We are based at the [School of Biomedical Engineerin
 
 Find out more about our [research projects](/projects/)
 
-Meet our [team](/profiles/).
+Meet our [team](/people/).
