@@ -21,9 +21,9 @@ social: false # includes social icons at the bottom of the page
 
 Welcome to the IMAGINE Lab! We are based at the [School of Biomedical Engineering & Imaging Sciences, King's College London](https://www.kcl.ac.uk/bmeis) and [UCL's Great Ormond Street Institute of Child Health](https://www.ucl.ac.uk/child-health/research/developmental-neurosciences). We work on building imaging and genetics tools to better understand, diagnose and treat neurodevelopmental disorders.
 
-Read more about our research projects here
+Read more about our research projects [here](/al-folio/projects/)
 
-Meet our [team.](/al-folio/profiles/).
+Meet our [team](/al-folio/profiles/).
 
 
 
