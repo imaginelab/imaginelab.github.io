@@ -1,7 +1,7 @@
 ---
 layout: page
 title: MELD project
-description: Multicentre Epilepsy Lesion Detection project
+description: The Multicentre Epilepsy Lesion Detection project
 img: assets/img/MELD_logo.png
 importance: 1
 category: work
