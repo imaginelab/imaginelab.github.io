@@ -6,13 +6,10 @@ subtitle: Imaging, Machine learning And Genetics in Neurodevelopment Lab
 
 profile:
   align: right
-  image: imagine_lab.jpg
+  image: imagine_lab_logo_color.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>IMAGINE Lab</p>
-    </p>Contact us:</p>
-    </p>konrad.wagstyl@kcl.ac.uk</p>
-
+    
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
