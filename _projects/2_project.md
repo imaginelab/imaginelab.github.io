@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Neurogenetics
+title: Neuro-genetics
 description: Linking genes to brains
 img: assets/img/scn1a.png
 importance: 2
-category: work
+category: research
 giscus_comments: true
 ---
 

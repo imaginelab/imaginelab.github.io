@@ -4,7 +4,7 @@ title: MELD project
 description: The Multicentre Epilepsy Lesion Detection project
 img: assets/img/MELD_logo.png
 importance: 1
-category: work
+category: research
 related_publications: true
 ---
 
