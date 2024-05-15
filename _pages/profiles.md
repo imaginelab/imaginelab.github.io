@@ -1,8 +1,8 @@
 ---
 layout: profiles
 permalink: /people/
-title: people
-description: meet the team
+title: Meet the team
+description: 
 nav: true
 nav_order: 7
 
