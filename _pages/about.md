@@ -6,7 +6,7 @@ subtitle: Imaging, Machine learning And Genetics in Neurodevelopment Lab
 
 profile:
   align: right
-  image: imagine_lab_logo_color_straight.png
+  image: imagine_lab_logo_color_diag.png
   image_circular: false # crops the image to make it circular
   more_info: >
     
