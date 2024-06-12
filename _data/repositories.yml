@@ -1,12 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - kwagstyl
+  - MELDproject
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - MELDproject/meld_classifier
+  - kwagstyl/MAGICC
+  - MELDproject/meld_graph
+  - MELDproject/pool
+  - kwagstyl/matplotlib_surface_plotting
