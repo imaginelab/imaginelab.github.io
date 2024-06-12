@@ -3,111 +3,429 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@ARTICLE{Adler2017-ni,
+  title    = "Novel surface features for automated detection of focal cortical
+              dysplasias in paediatric epilepsy",
+  author   = "Adler, Sophie and Wagstyl, Konrad and Gunny, Roxana and Ronan,
+              Lisa and Carmichael, David and Cross, J Helen and Fletcher, Paul
+              C and Baldeweg, Torsten",
+  abstract = "Focal cortical dysplasia is a congenital abnormality of cortical
+              development and the leading cause of surgically remediable
+              drug-resistant epilepsy in children. Post-surgical outcome is
+              improved by presurgical lesion detection on structural MRI.
+              Automated computational techniques have improved detection of
+              focal cortical dysplasias in adults but have not yet been
+              effective when applied to developing brains. There is therefore a
+              need to develop reliable and sensitive methods to address the
+              particular challenges of a paediatric cohort. We developed a
+              classifier using surface-based features to identify focal
+              abnormalities of cortical development in a paediatric cohort. In
+              addition to established measures, such as cortical thickness,
+              grey-white matter blurring, FLAIR signal intensity, sulcal depth
+              and curvature, our novel features included complementary metrics
+              of surface morphology such as local cortical deformation as well
+              as post-processing methods such as the ``doughnut'' method -
+              which quantifies local variability in cortical morphometry/MRI
+              signal intensity, and per-vertex interhemispheric asymmetry. A
+              neural network classifier was trained using data from 22 patients
+              with focal epilepsy (mean age = 12.1 $\pm$ 3.9, 9 females), after
+              intra- and inter-subject normalisation using a population of 28
+              healthy controls (mean age = 14.6 $\pm$ 3.1, 11 females).
+              Leave-one-out cross-validation was used to quantify classifier
+              sensitivity using established features and the combination of
+              established and novel features. Focal cortical dysplasias in our
+              paediatric cohort were correctly identified with a higher
+              sensitivity (73\%) when novel features, based on our approach for
+              detecting local cortical changes, were included, when compared to
+              the sensitivity using only established features (59\%). These
+              methods may be applicable to aiding identification of subtle
+              lesions in medication-resistant paediatric epilepsy as well as to
+              the structural analysis of both healthy and abnormal cortical
+              development.",
+  journal  = "Neuroimage Clin",
+  volume   =  14,
+  pages    = "18--27",
+  year     =  2017,
+  keywords = "AUC, area under the curve; Automated classification; FCD; FCD,
+              focal cortical dysplasia; FLAIR, fluid-attenuated inversion
+              recovery; Intractable epilepsy; LCD, local cortical deformation;
+              LGI, local gyrification index; PCA, principal component analysis;
+              Paediatric; ROC, receiver operator characteristic; Structural MRI",
+  language = "en"
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@UNPUBLISHED{Ripart2023-jt,
+  title    = "Automated and Interpretable Detection of Hippocampal Sclerosis in
+              temporal lobe epilepsy: {AID-HS}",
+  author   = "Ripart, Mathilde and DeKraker, Jordan and Eriksson, Maria H and
+              Piper, Rory J and Mo, Jia-Jie and Su, Ting-Yu and Kochi,
+              Ryuzaburo and Wang, Irene and Winston, Gavin P and Clark, Chris A
+              and D'Arco, Felice and Mankad, Kshitij and Khan, Ali R and
+              Baldeweg, Torsten and Adler, Sophie and Wagstyl, Konrad",
+  abstract = "AbstractHippocampal Sclerosis (HS) can elude visual detection on
+              MRI scans of patients with temporal lobe epilepsy (TLE), causing
+              delays in surgical treatment and reducing the likelihood of
+              postsurgical seizure-freedom. We developed an open-source
+              software that (1) detects HS from structural MRI scans, (2)
+              generalises across a heterogeneous multicentre cohort of children
+              and adults, and (3) generates individualised predictions for
+              clinical evaluation.We included a cohort of 363 participants (152
+              patients with HS, 90 disease controls with focal cortical
+              dysplasia, and 121 healthy controls) from four epilepsy centres
+              in the UK, North America, and China. We used the open-source
+              software HippUnfold to extract morphological surface-based
+              features and volumes of the hippocampus from T1w MRI scans. We
+              compared pathological hippocampal morphology in patients with HS
+              to normative growth charts generated from healthy controls, and
+              to the contralateral hippocampi in patients with HS. HS was
+              characterised by decreased volume, thickness and gyrification as
+              well as increased mean and intrinsic curvature. A logistic
+              regression classifier trained on these features detected 90.1\%
+              of HS patients, and accurately lateralised 97.4\% of the HS
+              cohort. Crucially, in patients with MRI-negative
+              histopathologically confirmed HS, the classifier detected HS in
+              79.2\% (19/24) and accurately lateralised the lesions in 91.7\%
+              (22/24). The Automated and Interpretable Detection of Hippocampal
+              Sclerosis classifier (AID-HS) was packaged into an open-source
+              pipeline, which detects and lateralises HS and generates
+              individualised patient reports that characterise hippocampal
+              developmental abnormalities.AID-HS is capable of accurately
+              detecting and lateralising HS in a large, heterogeneous,
+              multi-centre, cohort of paediatric and adult patients with
+              diagnostically challenging HS. Moreover, by offering transparent,
+              robust and interpretable results, AID-HS can support the
+              presurgical evaluation of patients with suspected TLE.",
+  journal  = "bioRxiv",
+  month    =  oct,
+  year     =  2023
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@INPROCEEDINGS{Spitzer2023-gn,
+  title     = "Robust and Generalisable Segmentation of Subtle
+               {Epilepsy-Causing} Lesions: A Graph Convolutional Approach",
+  booktitle = "Medical Image Computing and Computer Assisted Intervention --
+               {MICCAI} 2023",
+  author    = "Spitzer, Hannah and Ripart, Mathilde and Fawaz, Abdulah and
+               Williams, Logan Z J and Robinson, Emma C and Iglesias, Juan
+               Eugenio and Adler, Sophie and Wagstyl, Konrad",
+  abstract  = "Focal cortical dysplasia (FCD) is a leading cause of
+               drug-resistant focal epilepsy, which can be cured by surgery.
+               These lesions are extremely subtle and often missed even by
+               expert neuroradiologists. ``Ground truth'' manual lesion masks
+               are therefore expensive, limited and have large inter-rater
+               variability. Existing FCD detection methods are limited by high
+               numbers of false positive predictions, primarily due to vertex-
+               or patch-based approaches that lack whole-brain context. Here,
+               we propose to approach the problem as semantic segmentation
+               using graph convolutional networks (GCN), which allows our model
+               to learn spatial relationships between brain regions. To address
+               the specific challenges of FCD identification, our proposed
+               model includes an auxiliary loss to predict distance from the
+               lesion to reduce false positives and a weak supervision
+               classification loss to facilitate learning from uncertain lesion
+               masks. On a multi-centre dataset of 1015 participants with
+               surface-based features and manual lesion masks from structural
+               MRI data, the proposed GCN achieved an AUC of 0.74, a
+               significant improvement against a previously used vertex-wise
+               multi-layer perceptron (MLP) classifier (AUC 0.64). With
+               sensitivity thresholded at 67\%, the GCN had a specificity of
+               71\% in comparison to 49\% when using the MLP. This improvement
+               in specificity is vital for clinical integration of
+               lesion-detection tools into the radiological workflow, through
+               increasing clinical confidence in the use of AI radiological
+               adjuncts and reducing the number of areas requiring expert
+               review.",
+  publisher = "Springer Nature Switzerland",
+  pages     = "420--428",
+  year      =  2023
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  selected={true}
+@UNPUBLISHED{Wagstyl2023-nx,
+  title    = "Transcriptional cartography integrates multiscale biology of the
+              human cortex",
+  author   = "Wagstyl, Konrad and Adler, Sophie and Seidlitz, Jakob and
+              Vandekar, Simon and Mallard, Travis T and Dear, Richard and
+              DeCasien, Alex R and Satterthwaite, Theodore D and Liu, Siyuan
+              and V{\'e}rtes, Petra E and Shinohara, Russell T and
+              Alexander-Bloch, Aaron and Geschwind, Daniel H and Raznahan,
+              Armin",
+  abstract = "The cerebral cortex underlies many of our unique strengths and
+              vulnerabilities - but efforts to understand human cortical
+              organization are challenged by reliance on incompatible
+              measurement methods at different spatial scales. Macroscale
+              features such as cortical folding and functional activation are
+              accessed through spatially dense neuroimaging maps, whereas
+              microscale cellular and molecular features are typically measured
+              with sparse postmortem sampling. Here, we integrate these
+              distinct windows on brain organization by building upon existing
+              postmortem data to impute, validate and analyze a library of
+              spatially dense neuroimaging-like maps of human cortical gene
+              expression. These maps allow spatially unbiased discovery of
+              cortical zones with extreme transcriptional profiles or unusually
+              rapid transcriptional change which index distinct microstructure
+              and predict neuroimaging measures of cortical folding and
+              functional activation. Modules of spatially coexpressed genes
+              define a family of canonical expression maps that integrate
+              diverse spatial scales and temporal epochs of human brain
+              organization - ranging from protein-protein interactions to
+              large-scale systems for cognitive processing. These module maps
+              also parse neuropsychiatric risk genes into subsets which tag
+              distinct cyto-laminar features and differentially predict the
+              location of altered cortical anatomy and gene expression in
+              patients. Taken together, the methods, resources and findings
+              described here advance our understanding of human cortical
+              organization and offer flexible bridges to connect scientific
+              fields operating at different spatial scales of human brain
+              research.",
+  journal  = "eLife",
+  month    =  may,
+  year     =  2023
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@ARTICLE{Spitzer2022-hu,
+  title    = "Interpretable surface-based detection of focal cortical
+              dysplasias: a Multi-centre Epilepsy Lesion Detection study",
+  author   = "Spitzer, Hannah and Ripart, Mathilde and Whitaker, Kirstie and
+              D'Arco, Felice and Mankad, Kshitij and Chen, Andrew A and
+              Napolitano, Antonio and De Palma, Luca and De Benedictis,
+              Alessandro and Foldes, Stephen and Humphreys, Zachary and Zhang,
+              Kai and Hu, Wenhan and Mo, Jiajie and Likeman, Marcus and Davies,
+              Shirin and G{\"u}ttler, Christopher and Lenge, Matteo and Cohen,
+              Nathan T and Tang, Yingying and Wang, Shan and Chari, Aswin and
+              Tisdall, Martin and Bargallo, Nuria and Conde-Blanco,
+              Estefan{\'\i}a and Pariente, Jose Carlos and Pascual-Diaz,
+              Sa{\"u}l and Delgado-Mart{\'\i}nez, Ignacio and
+              P{\'e}rez-Enr{\'\i}quez, Carmen and Lagorio, Ilaria and Abela,
+              Eugenio and Mullatti, Nandini and O'Muircheartaigh, Jonathan and
+              Vecchiato, Katy and Liu, Yawu and Caligiuri, Maria Eugenia and
+              Sinclair, Ben and Vivash, Lucy and Willard, Anna and Kandasamy,
+              Jothy and McLellan, Ailsa and Sokol, Drahoslav and Semmelroch,
+              Mira and Kloster, Ane G and Opheim, Giske and Ribeiro,
+              Let{\'\i}cia and Yasuda, Clarissa and Rossi-Espagnet, Camilla and
+              Hamandi, Khalid and Tietze, Anna and Barba, Carmen and Guerrini,
+              Renzo and Gaillard, William Davis and You, Xiaozhen and Wang,
+              Irene and Gonz{\'a}lez-Ortiz, Sof{\'\i}a and Severino,
+              Mariasavina and Striano, Pasquale and Tortora, Domenico and
+              K{\"a}lvi{\"a}inen, Reetta and Gambardella, Antonio and Labate,
+              Angelo and Desmond, Patricia and Lui, Elaine and O'Brien, Terence
+              and Shetty, Jay and Jackson, Graeme and Duncan, John S and
+              Winston, Gavin P and Pinborg, Lars H and Cendes, Fernando and
+              Theis, Fabian J and Shinohara, Russell T and Cross, J Helen and
+              Baldeweg, Torsten and Adler, Sophie and Wagstyl, Konrad",
+  abstract = "One outstanding challenge for machine learning in diagnostic
+              biomedical imaging is algorithm interpretability. A key
+              application is the identification of subtle epileptogenic focal
+              cortical dysplasias (FCDs) from structural MRI. FCDs are
+              difficult to visualize on structural MRI but are often amenable
+              to surgical resection. We aimed to develop an open-source,
+              interpretable, surface-based machine-learning algorithm to
+              automatically identify FCDs on heterogeneous structural MRI data
+              from epilepsy surgery centres worldwide. The Multi-centre
+              Epilepsy Lesion Detection (MELD) Project collated and harmonized
+              a retrospective MRI cohort of 1015 participants, 618 patients
+              with focal FCD-related epilepsy and 397 controls, from 22
+              epilepsy centres worldwide. We created a neural network for FCD
+              detection based on 33 surface-based features. The network was
+              trained and cross-validated on 50\% of the total cohort and
+              tested on the remaining 50\% as well as on 2 independent test
+              sites. Multidimensional feature analysis and integrated gradient
+              saliencies were used to interrogate network performance. Our
+              pipeline outputs individual patient reports, which identify the
+              location of predicted lesions, alongside their imaging features
+              and relative saliency to the classifier. On a restricted
+              'gold-standard' subcohort of seizure-free patients with FCD type
+              IIB who had T1 and fluid-attenuated inversion recovery MRI data,
+              the MELD FCD surface-based algorithm had a sensitivity of 85\%.
+              Across the entire withheld test cohort the sensitivity was 59\%
+              and specificity was 54\%. After including a border zone around
+              lesions, to account for uncertainty around the borders of
+              manually delineated lesion masks, the sensitivity was 67\%. This
+              multicentre, multinational study with open access protocols and
+              code has developed a robust and interpretable machine-learning
+              algorithm for automated detection of focal cortical dysplasias,
+              giving physicians greater confidence in the identification of
+              subtle MRI lesions in individuals with epilepsy.",
+  journal  = "Brain",
+  volume   =  145,
+  number   =  11,
+  pages    = "3859--3871",
+  month    =  nov,
+  year     =  2022,
+  keywords = "epilepsy; focal cortical dysplasia; machine learning; structural
+              MRI",
+  language = "en"
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@ARTICLE{Eriksson2023-nd,
+  title     = "Predicting seizure outcome after epilepsy surgery: do we need
+               more complex models, larger samples, or better data?",
+  author    = "Eriksson, Maria H and Ripart, Mathilde and Piper, Rory J and
+               Moeller, Friederike and Das, Krishna B and Eltze, Christin and
+               Cooray, Gerald and Booth, John and Whitaker, Kirstie J and
+               Chari, Aswin and Martin Sanfilippo, Patricia and Caballero, Ana
+               Perez and Menzies, Lara and McTague, Amy and Tisdall, Martin M
+               and Cross, J Helen and Baldeweg, Torsten and Adler, Sophie and
+               Wagstyl, Konrad",
+  abstract  = "OBJECTIVE: The accurate prediction of seizure freedom after
+               epilepsy surgery remains challenging. We investigated if 1)
+               training more complex models, 2) recruiting larger sample sizes,
+               or 3) using data-driven selection of clinical predictors would
+               improve our ability to predict post-operative seizure outcome
+               using clinical features. We also conducted the first substantial
+               external validation of a machine learning model trained to
+               predict post-operative seizure outcome. METHODS: We performed a
+               retrospective cohort study of 797 children who had undergone
+               resective or disconnective epilepsy surgery at a tertiary
+               center. We extracted patient information from medical records
+               and trained three models - a logistic regression, a multilayer
+               perceptron, and an XGBoost model - to predict one-year
+               post-operative seizure outcome on our dataset. We evaluated the
+               performance of a recently published XGBoost model on the same
+               patients. We further investigated the impact of sample size on
+               model performance, using learning curve analysis to estimate
+               performance at samples up to N=2,000. Finally, we examined the
+               impact of predictor selection on model performance. RESULTS: Our
+               logistic regression achieved an accuracy of 72\% (95\%
+               CI=68-75\%,AUC=0.72), while our multilayer perceptron and
+               XGBoost both achieved accuracies of 71\% (95\% CIMLP
+               =67-74\%,AUCMLP =0.70; 95\% CIXGBoost own =68-75\%,AUCXGBoost
+               own =0.70). There was no significant difference in performance
+               between our three models (all P>0.4) and they all performed
+               better than the external XGBoost, which achieved an accuracy of
+               63\% (95\% CI=59-67\%,AUC=0.62; PLR =0.005,PMLP =0.01,PXGBoost
+               own =0.01) on our data. All models showed improved performance
+               with increasing sample size, but limited improvements beyond our
+               current sample. The best model performance was achieved with
+               data-driven feature selection. SIGNIFICANCE: We show that
+               neither the deployment of complex machine learning models nor
+               the assembly of thousands of patients alone is likely to
+               generate significant improvements in our ability to predict
+               post-operative seizure freedom. We instead propose that improved
+               feature selection alongside collaboration, data standardization,
+               and model sharing is required to advance the field.",
+  journal   = "Epilepsia",
+  publisher = "Cold Spring Harbor Laboratory Press",
+  pages     = "2023--2002",
+  month     =  may,
+  year      =  2023,
+  keywords  = "Epilepsy surgery; Machine learning; Pediatric; Prediction",
+  language  = "en"
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@ARTICLE{Wagstyl2020-xz,
+  title    = "{BigBrain} {3D} atlas of cortical layers: Cortical and laminar
+              thickness gradients diverge in sensory and motor cortices",
+  author   = "Wagstyl, Konrad and Larocque, St{\'e}phanie and Cucurull, Guillem
+              and Lepage, Claude and Cohen, Joseph Paul and Bludau, Sebastian
+              and Palomero-Gallagher, Nicola and Lewis, Lindsay B and Funck,
+              Thomas and Spitzer, Hannah and Dickscheid, Timo and Fletcher,
+              Paul C and Romero, Adriana and Zilles, Karl and Amunts, Katrin
+              and Bengio, Yoshua and Evans, Alan C",
+  abstract = "Histological atlases of the cerebral cortex, such as those made
+              famous by Brodmann and von Economo, are invaluable for
+              understanding human brain microstructure and its relationship
+              with functional organization in the brain. However, these
+              existing atlases are limited to small numbers of manually
+              annotated samples from a single cerebral hemisphere, measured
+              from 2D histological sections. We present the first whole-brain
+              quantitative 3D laminar atlas of the human cerebral cortex. It
+              was derived from a 3D histological atlas of the human brain at
+              20-micrometer isotropic resolution (BigBrain), using a
+              convolutional neural network to segment, automatically, the
+              cortical layers in both hemispheres. Our approach overcomes many
+              of the historical challenges with measurement of histological
+              thickness in 2D, and the resultant laminar atlas provides an
+              unprecedented level of precision and detail. We utilized this
+              BigBrain cortical atlas to test whether previously reported
+              thickness gradients, as measured by MRI in sensory and motor
+              processing cortices, were present in a histological atlas of
+              cortical thickness and which cortical layers were contributing to
+              these gradients. Cortical thickness increased across sensory
+              processing hierarchies, primarily driven by layers III, V, and
+              VI. In contrast, motor-frontal cortices showed the opposite
+              pattern, with decreases in total and pyramidal layer thickness
+              from motor to frontal association cortices. These findings
+              illustrate how this laminar atlas will provide a link between
+              single-neuron morphology, mesoscale cortical layering,
+              macroscopic cortical thickness, and, ultimately, functional
+              neuroanatomy.",
+  journal  = "PLoS Biol.",
+  volume   =  18,
+  number   =  4,
+  pages    = "e3000678",
+  month    =  apr,
+  year     =  2020,
+  language = "en"
 }
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@ARTICLE{Wagstyl2021-xc,
+  title     = "Atlas of lesion locations and postsurgical seizure freedom in
+               focal cortical dysplasia: A {MELD} study",
+  author    = "Wagstyl, Konrad and Whitaker, Kirstie and Raznahan, Armin and
+               Seidlitz, Jakob and V{\'e}rtes, Petra E and Foldes, Stephen and
+               Humphreys, Zachary and Hu, Wenhan and Mo, Jiajie and Likeman,
+               Marcus and Davies, Shirin and Lenge, Matteo and Cohen, Nathan T
+               and Tang, Yingying and Wang, Shan and Ripart, Mathilde and
+               Chari, Aswin and Tisdall, Martin and Bargallo, Nuria and
+               Conde-Blanco, Estefan{\'\i}a and Pariente, Jose Carlos and
+               Pascual-Diaz, Sa{\"u}l and Delgado-Mart{\'\i}nez, Ignacio and
+               P{\'e}rez-Enr{\'\i}quez, Carmen and Lagorio, Ilaria and Abela,
+               Eugenio and Mullatti, Nandini and O'Muircheartaigh, Jonathan and
+               Vecchiato, Katy and Liu, Yawu and Caligiuri, Maria and Sinclair,
+               Ben and Vivash, Lucy and Willard, Anna and Kandasamy, Jothy and
+               McLellan, Ailsa and Sokol, Drahoslav and Semmelroch, Mira and
+               Kloster, Ane and Opheim, Giske and Yasuda, Clarissa and Zhang,
+               Kai and Hamandi, Khalid and Barba, Carmen and Guerrini, Renzo
+               and Gaillard, William Davis and You, Xiaozhen and Wang, Irene
+               and Gonz{\'a}lez-Ortiz, Sof{\'\i}a and Severino, Mariasavina and
+               Striano, Pasquale and Tortora, Domenico and Kalviainen, Reetta
+               and Gambardella, Antonio and Labate, Angelo and Desmond,
+               Patricia and Lui, Elaine and O'Brien, Terry and Shetty, Jay and
+               Jackson, Graeme and Duncan, John S and Winston, Gavin P and
+               Pinborg, Lars and Cendes, Fernando and Cross, Judith Helen and
+               Baldeweg, Torsten and Adler, Sophie",
+  abstract  = "OBJECTIVE: Drug-resistant focal epilepsy is often caused by
+               focal cortical dysplasias (FCDs). The distribution of these
+               lesions across the cerebral cortex and the impact of lesion
+               location on clinical presentation and surgical outcome are
+               largely unknown. We created a neuroimaging cohort of patients
+               with individually mapped FCDs to determine factors associated
+               with lesion location and predictors of postsurgical outcome.
+               METHODS: The MELD (Multi-centre Epilepsy Lesion Detection)
+               project collated a retrospective cohort of 580 patients with
+               epilepsy attributed to FCD from 20 epilepsy centers worldwide.
+               Magnetic resonance imaging-based maps of individual FCDs with
+               accompanying demographic, clinical, and surgical information
+               were collected. We mapped the distribution of FCDs, examined for
+               associations between clinical factors and lesion location, and
+               developed a predictive model of postsurgical seizure freedom.
+               RESULTS: FCDs were nonuniformly distributed, concentrating in
+               the superior frontal sulcus, frontal pole, and temporal pole.
+               Epilepsy onset was typically before the age of 10 years. Earlier
+               epilepsy onset was associated with lesions in primary sensory
+               areas, whereas later epilepsy onset was associated with lesions
+               in association cortices. Lesions in temporal and occipital lobes
+               tended to be larger than frontal lobe lesions. Seizure freedom
+               rates varied with FCD location, from around 30\% in visual,
+               motor, and premotor areas to 75\% in superior temporal and
+               frontal gyri. The predictive model of postsurgical seizure
+               freedom had a positive predictive value of 70\% and negative
+               predictive value of 61\%. SIGNIFICANCE: FCD location is an
+               important determinant of its size, the age at epilepsy onset,
+               and the likelihood of seizure freedom postsurgery. Our atlas of
+               lesion locations can be used to guide the radiological search
+               for subtle lesions in individual patients. Our atlas of regional
+               seizure freedom rates and associated predictive model can be
+               used to estimate individual likelihoods of postsurgical seizure
+               freedom. Data-driven atlases and predictive models are essential
+               for evidence-based, precision medicine and risk counseling in
+               epilepsy.",
+  journal   = "Epilepsia",
+  publisher = "Wiley",
+  month     =  nov,
+  year      =  2021,
+  keywords  = "MRI; drug-resistant epilepsy; focal cortical dysplasia; lesions;
+               neurosurgery",
+  copyright = "http://creativecommons.org/licenses/by/4.0/",
+  language  = "en"
 }
