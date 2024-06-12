@@ -5,7 +5,6 @@ description: Linking genes to brains
 img: assets/img/scn1a.png
 importance: 2
 category: research
-giscus_comments: true
 ---
 
 Genetic changes underly many neurodevelopmental disorders. However we lack the tools to understand how these changes disrupt neurodevelopment. We integrate detailed mapping of spatial, developmental and cellular characteristics of gene expression with computational neuroimaging, to better link genes, brains and patient phenotypes.
