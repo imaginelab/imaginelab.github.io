@@ -12,7 +12,7 @@ profiles:
   
   - align: left
     image: wagstyl_pic.jpg
-    content: about_konrad.md
+    content: people/about_konrad.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>konrad.wagstyl@kcl.ac.uk</p>
