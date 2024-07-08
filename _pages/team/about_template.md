@@ -1,7 +1,7 @@
-Hi/Hello. Name and position
+Hi/Hello. your and role
 
 Research project & interests
 
-Background
+Background areas
 
-About me snapshot
+About me non-work snapshot
