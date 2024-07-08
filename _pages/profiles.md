@@ -17,4 +17,12 @@ profiles:
     more_info: >
       <p>konrad.wagstyl@kcl.ac.uk</p>
 
+  - align: left
+    image: adler_pic.jpg
+    content: team/about_sophie.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>sophie.adler.13@ucl.ac.uk</p>
+
+
 ---
