@@ -1,1 +1,2 @@
-Hello! I'm Sophie 
+Hello, I'm Sophie and I co-lead the IMAGINE lab. I am passionate about bringing together clinicians,  neuroscientists and data scientists to create useful AI tools that can transform how we look after children and adults with neurodevelopmental disorders.
+I split my time between working as a doctor, where I am specialising in paediatrics with a particular interest in neurological diseases, working as a neuroimaging scientist, and being mum to three gorgeous boys.
