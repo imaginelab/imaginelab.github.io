@@ -7,6 +7,15 @@ layout: page
       {% for profile in page.profiles %}
         <hr>
         <div class="profile-container d-flex flex-{% if profile.align == 'left' %}row{% else %}row-reverse{% endif %} align-items-start">
+          <div class="profile-content">
+            {% if profile.content %}
+              {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
+              {{ profile_content | markdownify }}
+            {% else %}
+              {{ content }}
+            {% endif %}
+          </div>
+
           <div class="profile">
             {% if profile.image %}
               {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
@@ -19,16 +28,7 @@ layout: page
               {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
             {% endif %}
             {% if profile.more_info %}
-              <div class="more-info">{{ profile.more_info }}</div>
-            {% endif %}
-          </div>
-
-          <div class="profile-content">
-            {% if profile.content %}
-              {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
-              {{ profile_content | markdownify }}
-            {% else %}
-              {{ content }}
+              <div class="more-info text-right">{{ profile.more_info }}</div>
             {% endif %}
           </div>
         </div>
@@ -44,9 +44,6 @@ layout: page
     align-items: flex-start;
     margin-bottom: 1rem;
   }
-  .profile {
-    margin-right: 1rem;
-  }
   .profile-content {
     flex: 1;
     min-width: 0;
@@ -55,24 +52,29 @@ layout: page
     width: 200px; /* Adjust as needed */
     margin-top: 1rem;
   }
+  .profile {
+    margin-left: 1rem; /* Adjust spacing */
+  }
   .profile.float-left {
     order: 1;
+    margin-right: 1rem; /* Adjust spacing */
   }
   .profile.float-right {
     order: 2;
-    margin-left: 1rem;
-    margin-right: 0;
+    margin-left: 0; /* Ensure no extra margin on the right */
   }
   @media (max-width: 576px) {
     .profile-container {
       flex-direction: column;
     }
     .profile {
+      margin-left: 0;
       margin-right: 0;
       margin-bottom: 1rem;
     }
     .more-info {
       width: 100%;
+      text-align: right;
     }
   }
 </style>
