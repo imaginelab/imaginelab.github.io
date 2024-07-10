@@ -47,17 +47,21 @@ layout: page
   .profile {
     margin-right: 1rem;
   }
+  .profile-content {
+    flex: 1;
+    min-width: 0;
+  }
+  .more-info {
+    width: 200px; /* Adjust as needed */
+    margin-top: 1rem;
+  }
   .profile.float-left {
     order: 1;
   }
   .profile.float-right {
     order: 2;
-  }
-  .profile-content {
-    flex: 1;
-  }
-  .more-info {
-    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 0;
   }
   @media (max-width: 576px) {
     .profile-container {
@@ -66,6 +70,9 @@ layout: page
     .profile {
       margin-right: 0;
       margin-bottom: 1rem;
+    }
+    .more-info {
+      width: 100%;
     }
   }
 </style>
