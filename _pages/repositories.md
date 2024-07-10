@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
-description: Open code
+title: 
+description: 
 nav: true
 nav_order: 4
 ---
