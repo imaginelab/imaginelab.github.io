@@ -25,13 +25,6 @@ profiles:
       <p>sophie.adler.13@ucl.ac.uk</p>
 
   - align: left
-    image: adler_pic.jpg
-    content: team/about_sophie.md
-    image_circular: true # crops the image to make it circular
-    more_info: >
-      <p>sophie.adler.13@ucl.ac.uk</p>
-
-  - align: left
     image: mathilde_pic.JPG
     content: team/about_mathilde.md
     image_circular: true # crops the image to make it circular
@@ -39,7 +32,7 @@ profiles:
       <p>m.ripart@ucl.ac.uk</p>
 
   - align: left
-    image: lennart_pic.png
+    image: lennart_pic.jpg
     content: team/about_lennart.md
     image_circular: true # crops the image to make it circular
     more_info: >
