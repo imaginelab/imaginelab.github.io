@@ -50,6 +50,6 @@ profiles:
     content: team/about_ali.md
     image_circular: true # crops the image to make it circular
     more_info: >
-      <p>lorenzo.lasagni@kcl.ac.uk</p>
+      <p>ali.afsharmoqaddam.23@ucl.ac.uk</p>
 
 ---
