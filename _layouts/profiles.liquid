@@ -19,11 +19,11 @@ layout: page
               {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
             {% endif %}
             {% if profile.more_info %}
-              <div class="more-info">{{ profile.more_info }}</div>
+              <div class="more-info text-right">{{ profile.more_info }}</div>
             {% endif %}
           </div>
 
-          <div class="profile-content ml-auto">
+          <div class="profile-content">
             {% if profile.content %}
               {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
               {{ profile_content | markdownify }}
@@ -39,16 +39,21 @@ layout: page
 
 <style>
   .profile-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
     margin-bottom: 1rem;
   }
   .profile {
     margin-right: 1rem;
+    flex-shrink: 0; /* Prevent the profile from shrinking */
   }
   .profile-content {
-    max-width: 60%; /* Adjust width as needed */
-    text-align: right; /* Right-align text content */
+    flex: 1;
+    min-width: 0; /* Prevent overflow issues */
   }
   .more-info {
+    text-align: right; /* Right-align text in more-info */
     margin-top: 1rem;
   }
   @media (max-width: 576px) {
@@ -60,7 +65,10 @@ layout: page
       margin-bottom: 1rem;
     }
     .profile-content {
-      max-width: 100%;
+      text-align: left; /* Ensure main content text is left-aligned */
+    }
+    .more-info {
+      width: 100%;
       text-align: left; /* Adjust for smaller screens */
     }
   }
