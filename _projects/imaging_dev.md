@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Imaging genetics
-description: Imaging of neurogenetic disorders
+description: Imaging and genetics of neurodevelopmental disorders
 img: assets/img/scn1a.png
 importance: 3
 category: research
