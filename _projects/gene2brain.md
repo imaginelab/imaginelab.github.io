@@ -2,7 +2,7 @@
 layout: page
 title: Gene2Brain
 description: Linking genes to brains
-img: assets/img/scn1a.png
+img: assets/img/SCN1A_surf.png
 importance: 2
 category: research
 ---
