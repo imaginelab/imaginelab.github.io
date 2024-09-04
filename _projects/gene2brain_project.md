@@ -7,7 +7,7 @@ importance: 2
 category: research
 ---
 
-Genetic changes underly many neurodevelopmental disorders. However we lack the tools to understand how these changes disrupt neurodevelopment. We integrate detailed mapping of spatial, developmental and cellular characteristics of gene expression with computational neuroimaging, to better link genes, brains and patient phenotypes.
+Genetic changes underly many neurodevelopmental disorders. However we lack the tools to understand how these changes disrupt neurodevelopment. We integrate detailed mapping of spatial, developmental and cellular characteristics of gene expression to understand how these mutations disrupt neurodevelopment.
 
 
 <div class="row">
@@ -16,5 +16,5 @@ Genetic changes underly many neurodevelopmental disorders. However we lack the t
     </div>
 </div>
 <div class="caption">
-    Cortical gene expression in SCN1A. Wagstyl et al., eLife 2023
+    Cortical gene expression in SCN1A. Wagstyl et al., eLife 2024
 </div>
