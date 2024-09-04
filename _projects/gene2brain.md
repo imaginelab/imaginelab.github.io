@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Neuro-genetics
+title: Gene2Brain
 description: Linking genes to brains
 img: assets/img/scn1a.png
 importance: 2
