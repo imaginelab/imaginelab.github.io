@@ -3,8 +3,7 @@ github_users:
   - MELDproject
 
 github_repos:
-  - MELDproject/meld_classifier
-  - kwagstyl/MAGICC
   - MELDproject/meld_graph
+  - kwagstyl/MAGICC
   - MELDproject/pool
   - kwagstyl/matplotlib_surface_plotting
