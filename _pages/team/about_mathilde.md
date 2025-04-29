@@ -1,6 +1,6 @@
-Hi, I'm Mathilde! I'm a final-year PhD student and Research Assistant in the IMAGINE lab.
+Hi, I'm Mathilde! I'm a post-doc in the IMAGINE lab.
 
-My PhD focuses on developing automated tools using AI to detect epilepsy lesions on MRI scans. 
+My work focuses on developing automated tools using AI to detect epilepsy lesions on MRI scans. 
 
 My background is in physics, neuroimaging and machine-learning. 
 
