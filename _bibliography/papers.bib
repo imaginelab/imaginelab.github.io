@@ -54,52 +54,59 @@
   language = "en",
 
 }
-
-@UNPUBLISHED{Ripart2023-jt,
+@ARTICLE{Ripart2024-vc,
   title    = "Automated and Interpretable Detection of Hippocampal Sclerosis in
-              temporal lobe epilepsy: {AID-HS}",
+              temporal lobe epilepsy: {AID}-{HS}",
   author   = "Ripart, Mathilde and DeKraker, Jordan and Eriksson, Maria H and
-              Piper, Rory J and Mo, Jia-Jie and Su, Ting-Yu and Kochi,
-              Ryuzaburo and Wang, Irene and Winston, Gavin P and Clark, Chris A
-              and D'Arco, Felice and Mankad, Kshitij and Khan, Ali R and
-              Baldeweg, Torsten and Adler, Sophie and Wagstyl, Konrad",
-  abstract = "AbstractHippocampal Sclerosis (HS) can elude visual detection on
-              MRI scans of patients with temporal lobe epilepsy (TLE), causing
-              delays in surgical treatment and reducing the likelihood of
-              postsurgical seizure-freedom. We developed an open-source
-              software that (1) detects HS from structural MRI scans, (2)
-              generalises across a heterogeneous multicentre cohort of children
-              and adults, and (3) generates individualised predictions for
-              clinical evaluation.We included a cohort of 363 participants (152
-              patients with HS, 90 disease controls with focal cortical
-              dysplasia, and 121 healthy controls) from four epilepsy centres
-              in the UK, North America, and China. We used the open-source
-              software HippUnfold to extract morphological surface-based
-              features and volumes of the hippocampus from T1w MRI scans. We
-              compared pathological hippocampal morphology in patients with HS
-              to normative growth charts generated from healthy controls, and
-              to the contralateral hippocampi in patients with HS. HS was
-              characterised by decreased volume, thickness and gyrification as
-              well as increased mean and intrinsic curvature. A logistic
-              regression classifier trained on these features detected 90.1\%
-              of HS patients, and accurately lateralised 97.4\% of the HS
-              cohort. Crucially, in patients with MRI-negative
-              histopathologically confirmed HS, the classifier detected HS in
-              79.2\% (19/24) and accurately lateralised the lesions in 91.7\%
-              (22/24). The Automated and Interpretable Detection of Hippocampal
-              Sclerosis classifier (AID-HS) was packaged into an open-source
-              pipeline, which detects and lateralises HS and generates
-              individualised patient reports that characterise hippocampal
-              developmental abnormalities.AID-HS is capable of accurately
-              detecting and lateralising HS in a large, heterogeneous,
-              multi-centre, cohort of paediatric and adult patients with
-              diagnostically challenging HS. Moreover, by offering transparent,
-              robust and interpretable results, AID-HS can support the
-              presurgical evaluation of patients with suspected TLE.",
-  journal  = "bioRxiv",
-  month    =  oct,
-  year     =  2023,
-preview={aid-hs.jpeg}
+              Piper, Rory J and Gopinath, Siby and Parasuram, Harilal and Mo,
+              Jiajie and Likeman, Marcus and Ciobotaru, Georgian and
+              Sequeiros-Peggs, Philip and Hamandi, Khalid and Xie, Hua and
+              Cohen, Nathan T and Su, Ting-Yu and Kochi, Ryuzaburo and Wang,
+              Irene and Rojas-Costa, Gonzalo M and Gálvez, Marcelo and Parodi,
+              Costanza and Riva, Antonella and D'Arco, Felice and Mankad,
+              Kshitij and Clark, Chris A and Carbó, Adrián Valls and Toledano,
+              Rafael and Taylor, Peter and Napolitano, Antonio and
+              Rossi-Espagnet, Maria Camilla and Willard, Anna and Sinclair,
+              Benjamin and Pepper, Joshua and Seri, Stefano and Devinsky, Orrin
+              and Pardoe, Heath R and Winston, Gavin P and Duncan, John S and
+              Yasuda, Clarissa L and Scárdua-Silva, Lucas and Walger, Lennart
+              and Rüber, Theodor and Khan, Ali R and Baldeweg, Torsten and
+              Adler, Sophie and Wagstyl, Konrad and {MELD HS study group}",
+  journal  = "Ann. Neurol.",
+  abstract = "OBJECTIVE: Hippocampal sclerosis (HS), the most common pathology
+              associated with temporal lobe epilepsy (TLE), is not always
+              visible on magnetic resonance imaging (MRI), causing surgical
+              delays and reduced postsurgical seizure-freedom. We developed an
+              open-source software to characterize and localize HS to aid the
+              presurgical evaluation of children and adults with suspected TLE.
+              METHODS: We included a multicenter cohort of 365 participants (154
+              HS; 90 disease controls; 121 healthy controls). HippUnfold was
+              used to extract morphological surface-based features and volumes
+              of the hippocampus from T1-weighted MRI scans. We characterized
+              pathological hippocampi in patients by comparing them to normative
+              growth charts and analyzing within-subject feature asymmetries.
+              Feature asymmetry scores were used to train a logistic regression
+              classifier to detect and lateralize HS. The classifier was
+              validated on an independent multicenter cohort of 275 patients
+              with HS and 161 healthy and disease controls. RESULTS: HS was
+              characterized by decreased volume, thickness, and gyrification
+              alongside increased mean and intrinsic curvature. The classifier
+              detected 90.1\% of unilateral HS patients and lateralized lesions
+              in 97.4\%. In patients with MRI-negative
+              histopathologically-confirmed HS, the classifier detected 79.2\%
+              (19/24) and lateralized 91.7\% (22/24). The model achieved similar
+              performances on the independent cohort, demonstrating its ability
+              to generalize to new data. Individual patient reports
+              contextualize a patient's hippocampal features in relation to
+              normative growth trajectories, visualise feature asymmetries, and
+              report classifier predictions. INTERPRETATION: Automated and
+              Interpretable Detection of Hippocampal Sclerosis (AID-HS) is an
+              open-source pipeline for detecting and lateralizing HS and
+              outputting clinically-relevant reports. ANN NEUROL 2024.",
+  month    =  nov,
+  year     =  2024,
+  language = "en"
+  preview={aid-hs.jpeg}
 }
 
 @INPROCEEDINGS{Spitzer2023-gn,
@@ -144,47 +151,50 @@ preview={spiral_convs.gif}
 
 }
 
-@UNPUBLISHED{Wagstyl2023-nx,
-  title    = "Transcriptional cartography integrates multiscale biology of the
-              human cortex",
-  author   = "Wagstyl, Konrad and Adler, Sophie and Seidlitz, Jakob and
-              Vandekar, Simon and Mallard, Travis T and Dear, Richard and
-              DeCasien, Alex R and Satterthwaite, Theodore D and Liu, Siyuan
-              and V{\'e}rtes, Petra E and Shinohara, Russell T and
-              Alexander-Bloch, Aaron and Geschwind, Daniel H and Raznahan,
-              Armin",
-  abstract = "The cerebral cortex underlies many of our unique strengths and
-              vulnerabilities - but efforts to understand human cortical
-              organization are challenged by reliance on incompatible
-              measurement methods at different spatial scales. Macroscale
-              features such as cortical folding and functional activation are
-              accessed through spatially dense neuroimaging maps, whereas
-              microscale cellular and molecular features are typically measured
-              with sparse postmortem sampling. Here, we integrate these
-              distinct windows on brain organization by building upon existing
-              postmortem data to impute, validate and analyze a library of
-              spatially dense neuroimaging-like maps of human cortical gene
-              expression. These maps allow spatially unbiased discovery of
-              cortical zones with extreme transcriptional profiles or unusually
-              rapid transcriptional change which index distinct microstructure
-              and predict neuroimaging measures of cortical folding and
-              functional activation. Modules of spatially coexpressed genes
-              define a family of canonical expression maps that integrate
-              diverse spatial scales and temporal epochs of human brain
-              organization - ranging from protein-protein interactions to
-              large-scale systems for cognitive processing. These module maps
-              also parse neuropsychiatric risk genes into subsets which tag
-              distinct cyto-laminar features and differentially predict the
-              location of altered cortical anatomy and gene expression in
-              patients. Taken together, the methods, resources and findings
-              described here advance our understanding of human cortical
-              organization and offer flexible bridges to connect scientific
-              fields operating at different spatial scales of human brain
-              research.",
-  journal  = "eLife",
-  month    =  may,
-  year     =  2023,
-preview={elife_pvalb.jpg}
+@ARTICLE{Wagstyl2024-xl,
+  title     = "Transcriptional cartography integrates multiscale biology of the
+               human cortex",
+  author    = "Wagstyl, Konrad and Adler, Sophie and Seidlitz, Jakob and
+               Vandekar, Simon and Mallard, Travis T and Dear, Richard and
+               DeCasien, Alex R and Satterthwaite, Theodore D and Liu, Siyuan
+               and Vértes, Petra E and Shinohara, Russell T and Alexander-Bloch,
+               Aaron and Geschwind, Daniel H and Raznahan, Armin",
+  journal   = "Elife",
+  publisher = "eLife Sciences Publications Limited",
+  volume    =  12,
+  pages     = "RP86933",
+  abstract  = "The cerebral cortex underlies many of our unique strengths and
+               vulnerabilities, but efforts to understand human cortical
+               organization are challenged by reliance on incompatible
+               measurement methods at different spatial scales. Macroscale
+               features such as cortical folding and functional activation are
+               accessed through spatially dense neuroimaging maps, whereas
+               microscale cellular and molecular features are typically measured
+               with sparse postmortem sampling. Here, we integrate these
+               distinct windows on brain organization by building upon existing
+               postmortem data to impute, validate, and analyze a library of
+               spatially dense neuroimaging-like maps of human cortical gene
+               expression. These maps allow spatially unbiased discovery of
+               cortical zones with extreme transcriptional profiles or unusually
+               rapid transcriptional change which index distinct microstructure
+               and predict neuroimaging measures of cortical folding and
+               functional activation. Modules of spatially coexpressed genes
+               define a family of canonical expression maps that integrate
+               diverse spatial scales and temporal epochs of human brain
+               organization–ranging from protein–protein interactions to
+               large-scale systems for cognitive processing. These module maps
+               also parse neuropsychiatric risk genes into subsets which tag
+               distinct cyto-laminar features and differentially predict the
+               location of altered cortical anatomy and gene expression in
+               patients. Taken together, the methods, resources, and findings
+               described here advance our understanding of human cortical
+               organization and offer flexible bridges to connect scientific
+               fields operating at different spatial scales of human brain
+               research.",
+  month     =  feb,
+  year      =  2024
+
+  preview={elife_pvalb.jpg}
 
 }
 
@@ -437,4 +447,83 @@ preview={eriksson.png}
   copyright = "http://creativecommons.org/licenses/by/4.0/",
   language  = "en",
 preview = {lesion_locations.gif}
+}
+
+
+@ARTICLE{Ripart2025-pc,
+  title    = "Detection of Epileptogenic Focal Cortical Dysplasia Using Graph
+              Neural Networks: A {MELD} Study",
+  author   = "Ripart, Mathilde and Spitzer, Hannah and Williams, Logan Z J and
+              Walger, Lennart and Chen, Andrew and Napolitano, Antonio and
+              Rossi-Espagnet, Camilla and Foldes, Stephen T and Hu, Wenhan and
+              Mo, Jiajie and Likeman, Marcus and Rüber, Theodor and Caligiuri,
+              Maria Eugenia and Gambardella, Antonio and Guttler, Christopher
+              and Tietze, Anna and Lenge, Matteo and Guerrini, Renzo and Cohen,
+              Nathan T and Wang, Irene and Kloster, Ane and Pinborg, Lars H and
+              Hamandi, Khalid and Jackson, Graeme and Tortora, Domenico and
+              Tisdall, Martin and Conde-Blanco, Estefania and Pariente, Jose C
+              and Perez-Enriquez, Carmen and Gonzalez-Ortiz, Sofia and Mullatti,
+              Nandini and Vecchiato, Katy and Liu, Yawu and Kalviainen, Reetta
+              and Sokol, Drahoslav and Shetty, Jay and Sinclair, Benjamin and
+              Vivash, Lucy and Willard, Anna and Winston, Gavin P and Yasuda,
+              Clarissa and Cendes, Fernando and Shinohara, Russell T and Duncan,
+              John S and Helen Cross, J and Baldeweg, Torsten and Robinson, Emma
+              C and Iglesias, Juan Eugenio and Adler, Sophie and Wagstyl, Konrad
+              and {MELD FCD writing group} and Fawaz, Abdulah and De Benedictis,
+              Alessandro and De Palma, Luca and Zhang, Kai and Labate, Angelo
+              and Barba, Carmen and You, Xiaozhen and Gaillard, William D and
+              Tang, Yingying and Wang, Shan and Davies, Shirin and Semmelroch,
+              Mira and Severino, Mariasavina and Striano, Pasquale and Chari,
+              Aswin and D'Arco, Felice and Mankad, Kshitij and Bargallo, Nuria
+              and Pascual-Diaz, Saul and Delgado-Martinez, Ignacio and
+              O'Muircheartaigh, Jonathan and Abela, Eugenio and Kandasamy, Jothy
+              and McLellan, Ailsa and Desmond, Patricia and Lui, Elaine and
+              O'Brien, Terence J and Whitaker, Kirstie",
+  journal  = "JAMA Neurol",
+  abstract = "ImportanceA leading cause of surgically remediable, drug-resistant
+              focal epilepsy is focal cortical dysplasia (FCD). FCD is
+              challenging to visualize and often considered magnetic resonance
+              imaging (MRI) negative. Existing automated methods for FCD
+              detection are limited by high numbers of false-positive
+              predictions, hampering their clinical utility.ObjectiveTo evaluate
+              the efficacy and interpretability of graph neural networks in
+              automatically detecting FCD lesions on MRI scans.Design, Setting,
+              and ParticipantsIn this multicenter diagnostic study,
+              retrospective MRI data were collated from 23 epilepsy centers
+              worldwide between 2018 and 2022, as part of the Multicenter
+              Epilepsy Lesion Detection (MELD) Project, and analyzed in 2023.
+              Data from 20 centers were split equally into training and testing
+              cohorts, with data from 3 centers withheld for site-independent
+              testing. A graph neural network (MELD Graph) was trained to
+              identify FCD on surface-based features. Network performance was
+              compared with an existing algorithm. Feature analysis, saliencies,
+              and confidence scores were used to interpret network predictions.
+              In total, 34 surface-based MRI features and manual lesion masks
+              were collated from participants, 703 patients with FCD–related
+              epilepsy and 482 controls, and 57 participants were excluded
+              during MRI quality control.Main Outcomes and MeasuresSensitivity,
+              specificity, and positive predictive value (PPV) of automatically
+              identified lesions.ResultsIn the test dataset, the MELD Graph had
+              a sensitivity of 81.6\% in histopathologically confirmed patients
+              seizure-free 1 year after surgery and 63.7\% in MRI–negative
+              patients with FCD. The PPV of putative lesions from the 260
+              patients in the test dataset (125 female [48\%] and 135 male
+              [52\%]; mean age, 18.0 [IQR, 11.0-29.0] years) was 67\% (70\%
+              sensitivity; 60\% specificity), compared with 39\% (67\%
+              sensitivity; 54\% specificity) using an existing baseline
+              algorithm. In the independent test cohort (116 patients; 62 female
+              [53\%] and 54 male [47\%]; mean age, 22.5 [IQR, 13.5-27.5] years),
+              the PPV was 76\% (72\% sensitivity; 56\% specificity), compared
+              with 46\% (77\% sensitivity; 47\% specificity) using the baseline
+              algorithm. Interpretable reports characterize lesion location,
+              size, confidence, and salient features.Conclusions and RelevanceIn
+              this study, the MELD Graph represented a state-of-the-art, openly
+              available, and interpretable tool for FCD detection on MRI scans
+              with significant improvements in PPV. Its clinical implementation
+              holds promise for early diagnosis and improved management of focal
+              epilepsy, potentially leading to better patient outcomes.",
+  month    =  feb,
+  year     =  2025,
+  keywords = "magnetic resonance imaging; graphical displays; focal cortical
+              dysplasia; epilepsy; epilepsies, partial; early diagnosis"
 }
