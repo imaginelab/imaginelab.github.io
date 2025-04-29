@@ -32,18 +32,11 @@ profiles:
       <p>m.ripart@ucl.ac.uk</p>
 
   - align: left
-    image: lennart_pic.jpg
-    content: team/about_lennart.md
+    image: jack_pic.png
+    content: team/about_jack.md
     image_circular: true # crops the image to make it circular
     more_info: >
-      <p>lennart.wagler@kcl.ac.uk</p>
-
-  - align: left
-    image: lorenzo_pic.jpg
-    content: team/about_Lorenzo.md
-    image_circular: true # crops the image to make it circular
-    more_info: >
-      <p>lorenzo.lasagni@kcl.ac.uk</p>
+      <p>jack.1.highton@kcl.ac.uk</p>
 
   - align: left
     image: ali_pic.jpg
@@ -51,5 +44,9 @@ profiles:
     image_circular: true # crops the image to make it circular
     more_info: >
       <p>ali.afsharmoqaddam.23@ucl.ac.uk</p>
+
+ 
+
+  
 
 ---
