@@ -45,8 +45,5 @@ profiles:
     more_info: >
       <p>ali.afsharmoqaddam.23@ucl.ac.uk</p>
 
- 
-
-  
 
 ---
