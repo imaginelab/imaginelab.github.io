@@ -39,6 +39,13 @@ profiles:
       <p>jack.1.highton@kcl.ac.uk</p>
 
   - align: left
+    image: lena_pic.jpg
+    content: team/about_lena.md
+    image_circular: true # crops the image to make it circular
+    more_info: >
+      <p>lena.dorfschmidt@kcl.ac.uk</p>
+
+  - align: left
     image: ali_pic.jpg
     content: team/about_ali.md
     image_circular: true # crops the image to make it circular
