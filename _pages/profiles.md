@@ -11,7 +11,7 @@ profiles:
   # and create one content file for each profile inside _pages/
   
   - align: left
-    image: headshot_may25.jpg
+    image: headshot_may25_small.jpg
     content: team/about_konrad.md
     image_circular: true # crops the image to make it circular
     more_info: >
