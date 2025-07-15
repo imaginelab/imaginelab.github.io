@@ -35,37 +35,43 @@ layout: page
 
 <style>
   .profile-container {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+.profile {
+  margin-right: 1rem;
+  flex-shrink: 0;
+}
+.profile img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.profile-content {
+  flex: 1;
+  min-width: 0;
+}
+.more-info {
+  text-align: right;
+  margin-top: 1rem;
+}
+@media (max-width: 576px) {
+  .profile-container {
+    flex-direction: column;
   }
   .profile {
-    margin-right: 1rem;
-    flex-shrink: 0; /* Prevent the profile from shrinking */
+    margin-right: 0;
+    margin-bottom: 1rem;
   }
   .profile-content {
-    flex: 1;
-    min-width: 0; /* Prevent overflow issues */
+    text-align: left;
   }
   .more-info {
-    text-align: right; /* Right-align text in more-info */
-    margin-top: 1rem;
+    width: 100%;
+    text-align: left;
   }
-  @media (max-width: 576px) {
-    .profile-container {
-      flex-direction: column;
-    }
-    .profile {
-      margin-right: 0;
-      margin-bottom: 1rem;
-    }
-    .profile-content {
-      text-align: left; /* Ensure main content text is left-aligned */
-    }
-    .more-info {
-      width: 100%;
-      text-align: left; /* Adjust for smaller screens */
-    }
-  }
+}
 </style>
