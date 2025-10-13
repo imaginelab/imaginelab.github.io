@@ -52,5 +52,11 @@ profiles:
     more_info: >
       <p>ali.afsharmoqaddam.23@ucl.ac.uk</p>
 
+  - align: left
+    image: cornelius_pic.jpg
+    content: team/about_cornelius.md
+    image_circular: true # crops the image to make it circular
+    more_info: >
+      <p>cornelius.kronlage@kcl.ac.uk</p>
 
 ---
