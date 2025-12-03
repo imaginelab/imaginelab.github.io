@@ -59,4 +59,11 @@ profiles:
     more_info: >
       <p>cornelius.kronlage@kcl.ac.uk</p>
 
+  - align: left
+    image: jieun_pic.jpg
+    content: team/about_jieun.md
+    image_circular: true # crops the image to make it circular
+    more_info: >
+      <p>jieun.seo.22@ucl.ac.uk</p>
+
 ---
