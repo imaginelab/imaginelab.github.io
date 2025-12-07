@@ -67,7 +67,7 @@ profiles:
       <p>jieun.seo.22@ucl.ac.uk</p>
 
   - align: left
-    image: francesca_pic.jpg
+    image: francesca_pic.png
     content: team/about_francesca.md
     image_circular: true # crops the image to make it circular
     more_info: >
