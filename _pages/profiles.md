@@ -66,4 +66,11 @@ profiles:
     more_info: >
       <p>jieun.seo.22@ucl.ac.uk</p>
 
+  - align: left
+    image: francesca_pic.jpg
+    content: team/about_francesca.md
+    image_circular: true # crops the image to make it circular
+    more_info: >
+      <p>francesca.peccei@kcl.ac.uk</p>
+
 ---
