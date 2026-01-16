@@ -73,4 +73,11 @@ profiles:
     more_info: >
       <p>francesca.peccei@kcl.ac.uk</p>
 
+  - align: left
+    image: milly_pic.png
+    content: team/about_milly.md
+    image_circular: true # crops the image to make it circular
+    more_info: >
+      <p>hang_chi.mak@kcl.ac.uk</p>
+
 ---
