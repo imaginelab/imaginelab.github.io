@@ -4,6 +4,8 @@ github_users:
 
 github_repos:
   - MELDproject/meld_graph
+  - MELDproject/AID-HS
   - kwagstyl/MAGICC
   - MELDproject/pool
   - kwagstyl/matplotlib_surface_plotting
+
