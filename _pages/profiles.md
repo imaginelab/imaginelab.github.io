@@ -78,6 +78,6 @@ profiles:
     content: team/about_milly.md
     image_circular: true # crops the image to make it circular
     more_info: >
-      <p>hang_chi.mak@kcl.ac.uk</p>
+      <p>milly.mak@kcl.ac.uk</p>
 
 ---
