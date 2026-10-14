@@ -81,7 +81,7 @@ profiles:
       <p>milly.mak@kcl.ac.uk</p>
 
   - align: left
-    image: lily_pic.jpg
+    image: lily_pic.jpeg
     content: team/about_lily.md
     image_circular: true # crops the image to make it circular
     more_info: >
