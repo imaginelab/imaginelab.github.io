@@ -16,10 +16,11 @@ The current aims of the project are:
 - Create a large MRI dataset of typically developing controls
 - Collect MRI data from multi-centre clinical cohorts of subjects with genetic neurodevelopmental disorders
 - Develop tools for:
-    - processing infant scans
-    - charting paediatric normative brain development across the lifespan, particularly in younger children and infants, and centile scoring the development of neurodevelopmental disorder cohorts
+  - processing infant scans
+  - charting paediatric normative brain development across the lifespan, particularly in younger children and infants, and centile scoring the development of neurodevelopmental disorder cohorts
 
 Genetic cohorts in progress include:
+
 - SCN1A
 - SCN2A
 - DHDDS
@@ -27,10 +28,10 @@ Genetic cohorts in progress include:
 - TSC
 
 Other neurodevelopmental cohorts:
+
 - Rasmussen’s
 
 If you are interested in getting involved, please contact us at: MELD.study@gmail.com
-
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

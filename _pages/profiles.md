@@ -2,14 +2,14 @@
 layout: profiles
 permalink: /people/
 title: team
-description: 
+description:
 nav: true
 nav_order: 8
 
 profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
-  
+
   - align: left
     image: headshot_may25_small_v2.jpg
     content: team/about_konrad.md
@@ -86,5 +86,4 @@ profiles:
     image_circular: true # crops the image to make it circular
     more_info: >
       <p>lily.meyer@kcl.ac.uk</p>
-
 ---

@@ -14,8 +14,6 @@ redirect: https://meldproject.github.io/
     </div>
 </div>
 
-
 The Multi-centre Epilepsy Lesion Detection (MELD) project is an international collaboration dedicated to improving the detection of lesions in patients with drug-resistant epilepsy.
 
 Find out more at [https://meldproject.github.io/](https://meldproject.github.io/)
-  
