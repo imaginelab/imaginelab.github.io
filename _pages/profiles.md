@@ -80,4 +80,11 @@ profiles:
     more_info: >
       <p>milly.mak@kcl.ac.uk</p>
 
+  - align: left
+    image: lily_pic.jpg
+    content: team/about_lily.md
+    image_circular: true # crops the image to make it circular
+    more_info: >
+      <p>lily.meyer@kcl.ac.uk</p>
+
 ---
